@@ -1,0 +1,10 @@
+// PERSONALIZACION DE SOBRE MI
+.sobre-mi {
+    background-color: $main-bg-color;
+    opacity: 95%;
+    border-radius: $border-radius;
+    &-texto {
+        align-items: $align-items-cen;
+        font-weight: $font-w-bold;
+    }
+}
