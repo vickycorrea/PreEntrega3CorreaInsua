@@ -10,6 +10,14 @@ footer {
   height: 5vh;
 }
 
+.textito-16px {
+  font-size: 16px;
+}
+
+.textito-24px {
+  font-size: 24px;
+}
+
 body {
   font-family: dogica;
   background-image: url(../assets/img/main/wave.png);
@@ -61,7 +69,7 @@ body {
   font-weight: bold;
 }
 
-.caca {
+.textito {
   display: flex;
   justify-content: center;
   font-weight: bold;

@@ -1,0 +1,5 @@
+@each $size in $font-sizes {
+    .textito-#{$size} {
+        font-size: $size;
+    }
+}
