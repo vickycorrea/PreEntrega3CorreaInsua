@@ -1,6 +1,12 @@
+// IMPORTO VARIABLES
 @import "./utilities/variables";
+@import "./utilities/condicionales";
+@import "./utilities/each";
+// IMPORTO RESET
 @import "./globals/reset";
+// IMPORTO LAYOUT
 @import "./layout/header.scss";
+// IMPORTO VIEWS
 @import "./views/home";
 @import "./views/sobremi";
 @import "./views/noticias";

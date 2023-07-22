@@ -1,0 +1,15 @@
+@if 2+2==4 {
+    header {
+        height: $header-height;
+    }
+}
+@if 3+3==6 {
+    main {
+        height: $main-height
+    }
+}
+@if 4+4==8 {
+    footer {
+        height: $footer-height;
+    }
+}
