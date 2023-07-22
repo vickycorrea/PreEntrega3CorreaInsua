@@ -1,0 +1,34 @@
+body {
+  font-family: dogica;
+  height: 100vh;
+  background-image: url(../assets/img/main/wave.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+header {
+  height: 10vh;
+}
+
+.ubicacion-header {
+  justify-content: center;
+  font-weight: bold;
+}
+
+.tienda-virtual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 243, 248, 0.603);
+  border-radius: 5px;
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  height: 10vh;
+}
+
+/*# sourceMappingURL=styles.css.map */

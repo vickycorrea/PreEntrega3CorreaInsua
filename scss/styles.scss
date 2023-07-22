@@ -1,0 +1,46 @@
+$font-primary: dogica;
+$background-image: url(../assets/img/main/wave.png);
+$tienda-virtual-bg-color: rgba(165, 243, 248, 0.603);
+$header-height: 10vh;
+$main-height: 80vh;
+$footer-height: 10vh;
+$justify-cont-cen: center;
+$align-items-cen: center;
+$font-w-bold: bold;
+$border-radius: 5px;
+$display-f: flex;
+
+body {
+    font-family: $font-primary;
+    height: 100vh;
+    background-image: $background-image;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    height: $header-height;
+}
+
+.ubicacion-header {
+    justify-content: $justify-cont-cen;
+    font-weight: $font-w-bold;
+}
+
+.tienda-virtual {
+    display: flex;
+    justify-content: $justify-cont-cen;
+    align-items: $align-items-cen;
+    background-color: $tienda-virtual-bg-color;
+    border-radius: $border-radius;
+}
+
+
+
+main {
+    height: $main-height;
+}
+
+footer {
+    height: $footer-height;
+}
