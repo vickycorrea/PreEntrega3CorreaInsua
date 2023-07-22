@@ -1,9 +1,8 @@
 // PERSONALIZACION DEL HOME
 .menu {
+    @include flex-row-center;
     height: 100%;
-    display: $display-f;
     text-align: $text-align-center;
-    justify-content: $justify-cont-cen;
     align-items: $align-items-cen;
     opacity: 95%;
     border-radius: 20px;

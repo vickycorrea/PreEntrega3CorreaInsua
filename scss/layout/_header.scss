@@ -1,6 +1,6 @@
 // PERSONALIZACION DEL HEADER
 .header {
-    justify-content: $justify-cont-cen;
+    @include flex-row-center;
     font-weight: $font-w-bold;
     font-family: $font-primary;
     &-tienda-virtual {
