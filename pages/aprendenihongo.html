@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../assets/img/favicon_kitty.ico" type="icono_favicon">
-    <title>SOBRE MI</title>
+    <title>APRENDE NIHONGO</title>
 </head>
 <body>
   <!-- CONFECCION DEL HEADER Y NAVBAR -->
@@ -49,29 +49,50 @@
           </nav>
     </div>
 </header>
-  <!-- CONFECCION DEL MAIN -->
-    <main class="container-fluid">
-      <div class="d-flex flex-row row sobre-mi">
-        <div>
-          <img class="mx-auto d-block" src="../assets/img/aboutme/pp1.png" alt="" width="600" height="600">
-        </div>
-        <div class="col d-flex sobre-mi-texto text-center">
-          ¡Hola! Mi nombre es Victoria, y estudio japones hace mas de 4 años. Mi interes comenzo aproximadamente a mis 12 años, cuando descubri el anime y manga, y luego se fue desplazando hasta abarcar musica, peliculas y literatura japonesa. Estudie (y sigo estudiando) en el Centro Nikkei ubicado en Buenos Aires, Capital Federal.
-        </div>
-      </div>
-      <div class="row bg-body-tertiary p-2 text-white bg-opacity-75 rounded-2">
+<main>
+    <div class="container aprende h-100">
+            <form class="row g-3">
+                <div class="col-6" >
+                    <label for="nombre-input" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre-input" placeholder="solo minuscula">
+                </div>
+                <div class="col-6" >
+                    <label for="apellido-input" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="Apellido-input" placeholder="solo minuscula">
+                </div>
+                <div class="col-6" >
+                    <label for="mail-input" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mail-input" placeholder="debe tener @">
+                </div>
+                <div class="col-6" >
+                    <label for="celular-input" class="form-label">Celular</label>
+                    <input type="number" class="form-control" id="celular-input" placeholder="sin 011 ni 15">
+                </div>
+                <div class="col-12" >
+                    <label for="comentario-input" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" id="comentario-input" placeholder="hasta 400 caracteres">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-light btn-outline-danger ">
+                        Quiero que me envien informacion de cursos
+                    </button>
+                </div>
+            </form>
+    </div>
+    <div class="row bg-body-tertiary p-2 text-white bg-opacity-75 rounded-2">
         <div class="text-center">
           <div class="btn-group bg-danger-subtle text-dark bg-opacity-50" role="group" style="position: relative; top: -10%; left: 0%">
             <button type="button" class="btn border border-3 border-danger">JAPON TOUR</button>
-            <button type="button" class="btn border border-3 border-danger"><a class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./noticias.html" target="_blank">NOTICIAS</a></button>
+            <button type="button" class="btn border border-3 border-danger"><a class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./noticias.html" target="_blank">NOTICIAS</a></button>            
             <button type="button" class="btn border border-3 border-danger"><a class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="../index.html" target="_blank">TODO SOBRE JAPON</a></button>
-            <button type="button" class="btn border border-3 border-danger"><a class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./aprendenihongo.html" target="_blank">APRENDE NIHONGO</a></button> 
+            <button type="button" class="btn border border-3 border-danger"><a class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./sobre_mi.html" target="_blank">SOBRE MI</a></button>
           </div>
         </div>
       </div>
-    </main>
+
+</main>
       <!-- CONFECCION DEL FOOTER -->
-    <footer class="container-fluid">
+      <footer class="container-fluid">
         <div class="row fs-8 text-center h-100">
             <p class="col">© Victoria Correa | All Rights Reserved</p>
         </div>
