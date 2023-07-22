@@ -26,6 +26,11 @@ body {
   overflow-x: hidden;
 }
 
+.boton-1, .boton-3, .boton-2 {
+  width: 40px;
+  height: 40px;
+}
+
 .header {
   justify-content: center;
   font-weight: bold;

@@ -1,0 +1,12 @@
+.boton-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.boton-2 {
+    @extend .boton-1
+}
+
+.boton-3 {
+    @extend .boton-1
+}
