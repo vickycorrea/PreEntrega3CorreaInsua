@@ -1,0 +1,20 @@
+// PERSONALIZACION DEL BODY
+body {
+    font-family: $font-primary;
+    background-image: $backgrond-img;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+// ALTURA HEADER
+header {
+    height: $header-height;
+}
+// ALTURA MAIN
+main {
+    height: $main-height;
+}
+// ALTURA FOOTER
+footer {
+    height: $footer-height;
+}

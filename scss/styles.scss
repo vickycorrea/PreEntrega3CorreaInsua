@@ -1,43 +1,4 @@
 @import "./utilities/variables";
-
-
-body {
-    font-family: $font-primary;
-    height: 100vh;
-    background-image: $backgrond-img;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
-header {
-    height: $header-height;
-}
-
-.header {
-    justify-content: $justify-cont-cen;
-    font-weight: $font-w-bold;
-    font-family: $font-primary;
-    &-tienda-virtual {
-        display: flex;
-        align-items: $align-items-cen;
-        background-color: $tienda-virtual-bg-color;
-        border-radius: $border-radius;
-        .link-tienda {
-            color: $tienda-virtual-font-color;
-        }
-        &:hover {
-            background-color: rgba(217, 167, 232, 0.55);
-        }
-    }
-}
-
-
-
-
-main {
-    height: $main-height;
-}
-
-footer {
-    height: $footer-height;
-}
+@import "./globals/reset";
+@import "./layout/header.scss";
+@import "./views/home";

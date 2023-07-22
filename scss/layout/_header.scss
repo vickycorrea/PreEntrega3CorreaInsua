@@ -1,0 +1,18 @@
+// PERSONALIZACION DEL HEADER
+.header {
+    justify-content: $justify-cont-cen;
+    font-weight: $font-w-bold;
+    font-family: $font-primary;
+    &-tienda-virtual {
+        display: flex;
+        align-items: $align-items-cen;
+        background-color: $tienda-virtual-bg-color;
+        border-radius: $border-radius;
+        .link-tienda {
+            color: $tienda-virtual-font-color;
+        }
+        &:hover {
+            background-color: $tienda-virtual-hv-color;
+        }
+    }
+}
