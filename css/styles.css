@@ -10,17 +10,22 @@ header {
   height: 10vh;
 }
 
-.ubicacion-header {
+.header {
   justify-content: center;
   font-weight: bold;
+  font-family: dogica;
 }
-
-.tienda-virtual {
+.header-tienda-virtual {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: rgba(165, 243, 248, 0.603);
   border-radius: 5px;
+}
+.header-tienda-virtual .link-tienda {
+  color: rgba(232, 58, 14, 0.713);
+}
+.header-tienda-virtual:hover {
+  background-color: rgba(217, 167, 232, 0.55);
 }
 
 main {
