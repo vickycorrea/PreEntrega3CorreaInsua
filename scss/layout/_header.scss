@@ -6,13 +6,13 @@
     &-tienda-virtual {
         display: flex;
         align-items: $align-items-cen;
-        background-color: $tienda-virtual-bg-color;
+        background-color: map-get($colorpalet , tvbc );
         border-radius: $border-radius;
         .link-tienda {
-            color: $tienda-virtual-font-color;
+            color: map-get($colorpalet , tvfc );
         }
         &:hover {
-            background-color: $tienda-virtual-hv-color;
+            background-color: map-get($colorpalet , tvhc );
         }
     }
 }

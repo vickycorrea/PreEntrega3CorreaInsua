@@ -34,14 +34,14 @@ body {
 .header-tienda-virtual {
   display: flex;
   align-items: center;
-  background-color: rgba(165, 243, 248, 0.603);
+  background-color: #7a959e;
   border-radius: 5px;
 }
 .header-tienda-virtual .link-tienda {
-  color: rgba(232, 58, 14, 0.713);
+  color: #ac4147;
 }
 .header-tienda-virtual:hover {
-  background-color: rgba(217, 167, 232, 0.55);
+  background-color: #3b2b46;
 }
 
 .menu {
