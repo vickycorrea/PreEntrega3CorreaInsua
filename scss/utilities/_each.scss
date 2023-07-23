@@ -1,3 +1,5 @@
+// EACH IMPLEMENTADO PARA INDICAR EL TEXTO A UTILIZAR EN LAS PAGES SOBRE MI Y TODO SOBRE JAPON
+
 @each $size in $font-sizes {
     .textito-#{$size} {
         font-size: $size;
